@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import { DonatorPrev } from "./DonatorPrev";
 import React from "react";
 import Carousel from "react-material-ui-carousel";
