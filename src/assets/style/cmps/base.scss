@@ -8,5 +8,13 @@
    background-image: url('../../imgs/background.png');
    background-size: cover;
    padding: 100px 200px;
-
+   direction: rtl;
+   .not-found{
+       height: 500px;
+       text-align: center;
+       padding-top: 150px;
+       p{
+           font-size: 5rem;
+       }
+   }
 }

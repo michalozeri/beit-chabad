@@ -20,8 +20,13 @@ function onFilterInput(ev){
   return (
     <div className="App">
       <header className="App-header"></header>
+      {donators.length ?
+      <DonatorsList donators={donators}/>:
+    <div className='not-found'>
+        <p style={{direction:"rtl"}}> לא מצאנו במערכת את השם  "{filterBy}"</p>
+    </div>}
       <Filter filterBy={filterBy} onFilterInput={onFilterInput}/>
-      <DonatorsList donators={donators}/>
+    
     </div>
   );
 }

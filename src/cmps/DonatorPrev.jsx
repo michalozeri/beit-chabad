@@ -7,7 +7,7 @@ export function DonatorPrev({donator}) {
       <section>
      {donator && 
     <Paper style={{margin:"auto", border: "none", backgroundColor:"transparent"}}>
-        <div style={{textAlign: "center", fontSize:"2rem"}}>
+        <div style={{textAlign: "center", fontSize:"2rem", height:"500px"}}>
           <p style={{fontSize: "15rem"}}>{donator.fullname}</p>
           <p style={{fontSize: "6rem"}}>{donator.txt1}</p>
         </div>
