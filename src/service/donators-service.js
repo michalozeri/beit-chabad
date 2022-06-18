@@ -7,10 +7,11 @@ function query(filterBy) {
   let donators = gDonators;
   if (filterBy) {
     donators = gDonators.filter((donator) =>
-      donator.fullname.includes(filterBy)
-    );
-  }
-  return [...donators];
+      donator.fullname.toLowerCase().includes(filterBy) || 
+      donator.fullname.toUpperCase().includes(filterBy) 
+      );
+    }
+    return [...donators];
 }
 
 const gDonators = [
