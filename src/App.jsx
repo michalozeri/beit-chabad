@@ -16,7 +16,6 @@ function App() {
   }, [filterBy]);
 
   function onFilterInput(ev) {
-    console.log('the input',ev.target.value);
       setFilterBy(ev.target.value);
   }
 
@@ -34,6 +33,7 @@ function App() {
         </div>
       )}
       <Filter filterBy={filterBy} onFilterInput={onFilterInput} />
+      <footer>2022 MICHAL OZERI<img src={require('./assets/imgs/copyright.png')} alt="" /></footer>
     </div>
   );
 }

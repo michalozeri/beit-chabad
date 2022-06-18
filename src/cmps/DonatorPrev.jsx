@@ -5,13 +5,12 @@ export function DonatorPrev({donator}) {
 
   return (
       <section>
-     {donator && 
-    <Paper style={{margin:"auto", border: "none", backgroundColor:"transparent"}}>
-        <div style={{textAlign: "center", fontSize:"2rem", height:"500px"}}>
-          <p style={{fontSize: "15rem"}}>{donator.fullname}</p>
-          <p style={{fontSize: "6rem"}}>{donator.txt1}</p>
+    <Paper style={{margin:"auto", border: "none", backgroundColor:"transparent",height:"70vh"}}>
+        <div style={{}}>
+          <p style={{fontSize: "8rem", marginBottom:"5%"}}>{donator?.fullname}</p>
+          <p style={{fontSize: "2.5rem", width: "75vw", textAlign: "center", margin: "auto"}}>{donator?.txt}</p>
         </div>
-    </Paper>  }
+    </Paper>  
     </section>
   )
 }
