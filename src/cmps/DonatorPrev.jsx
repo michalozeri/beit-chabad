@@ -5,10 +5,10 @@ export function DonatorPrev({donator}) {
 
   return (
       <section>
-    <Paper style={{margin:"auto", border: "none", backgroundColor:"transparent",height:"70vh"}}>
-        <div style={{}}>
-          <p style={{fontSize: "8rem", marginBottom:"5%"}}>{donator?.fullname}</p>
-          <p style={{fontSize: "2.5rem", width: "75vw", textAlign: "center", margin: "auto"}}>{donator?.txt}</p>
+    <Paper style={{margin:"auto", border: "none", backgroundColor:"transparent",height:"61vh"}}>
+        <div style={{fontSize: "2.3rem", width: "65vw", textAlign: "center", margin: "auto"}}>
+          <p >{donator?.txt1}</p>
+          <p style={{marginTop: "2%", fontWeight: "bold"}}>{donator.txt2}</p>
         </div>
     </Paper>  
     </section>
