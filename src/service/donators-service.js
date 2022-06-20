@@ -6,12 +6,13 @@ export const donatoesService = {
 function query(filterBy) {
   let donators = gDonators;
   if (filterBy) {
-    donators = gDonators.filter((donator) =>
-      donator.txt2.toLowerCase().includes(filterBy) || 
-      donator.txt2.toUpperCase().includes(filterBy) 
-      );
-    }
-    return [...donators];
+    donators = gDonators.filter(
+      (donator) =>
+        donator.txt2.toLowerCase().includes(filterBy) ||
+        donator.txt2.toUpperCase().includes(filterBy)
+    );
+  }
+  return [...donators];
 }
 
 const gDonators = [
@@ -1024,6 +1025,7 @@ const gDonators = [
   {
     txt2: "הוקדש על ידי שגב דגן",
     id: uuidv4(),
+    isTooLong: true,
     txt1: "לעילוי נשמת חנה בת חיה מרים לושק ז״ל,ולעילוי נשמת בני משפחתי אשר נרצחו בשואה, שלמה ברגמן בן מנשה ושרה,ישעיהו רובין בן נפתלי ושיינדל,דוד ברגמן בן מנשה ושרה, מאיר קלטר בן לייביש וצביה, ולול קלטר בן לייביש וצביה, סימה רוטן בת ולול וטוייבה שיינדל, דוב רוטן בן ולול וטוייבה שיינדל, גולדה דלמן בת שיינדל, סימה הילפר, ירחמיאל לושק בן אברהם ורוזה, לייביש לושק בן ירחמיאל וחיה מרים, חיה מרים לושק בת לייביש וציביה, ברנצ׳ה רוטן בת ולול וטוייבה שיינדל",
   },
   {
@@ -1116,7 +1118,7 @@ const gDonators = [
     id: uuidv4(),
     txt1: "לעילוי נשמת עזיזה בת סלחה",
   },
-    {
+  {
     txt2: "הוקדש על ידי רחל זלמן",
     id: uuidv4(),
     txt1: "לעילוי נשמת ציון סימנה בן רחל וציון מלכה בן אודט",
@@ -1379,6 +1381,7 @@ const gDonators = [
   {
     txt2: "הוקדש על ידי נהוראי כהן",
     id: uuidv4(),
+    isTooLong: true,
     txt1: "רפואה שלמה: שמעון בן פרידה, צביה בת חממה, אלי בן זוהרה, ג׳ולייט בת מרים, חנה בת ג׳ולייט ואבא בן עלושה לעילוי נשמת: חממה בת שמחה, זוהרה בת יחיה, שלמה בן סעיד, אברהם בן חווה, שמעון בן מסעודה, עלושה בת זקנה וזרח בן אסתר הצלחה וזיווג: רעות עליזה בת חנה לזיווג הגון. נהוראי מאיר וחן כהן להצלחה בחיים שמחה ושלום בית",
   },
   {
@@ -2736,6 +2739,7 @@ const gDonators = [
   {
     txt2: "In Honor of Karen Pichel",
     id: uuidv4(),
+    isTooLong: true,
     txt1: "In memory of my paternal great grandmother Clara Lassoff. May her memory be blessed. In memory of my maternal greatgrandmother Sadie Seligman. In memory of my maternal grandparents Esther and Lou Dennis . May their memory be blessed. In memory of my paternal grandmother Blanche Lassoff Pichel Blanche bat Menachem Mendel. May her memory be blessed. In loving memory of my dear friend Chavi Chamish. In loving memory of my cousins who left this world too soon- Kim Deckelbaum and Judy Deckelbaum.",
   },
   {
