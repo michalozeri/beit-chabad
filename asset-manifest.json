@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/beit-chabad/static/css/main.5e62860e.css",
-    "main.js": "/beit-chabad/static/js/main.c24028cc.js",
+    "main.css": "/beit-chabad/static/css/main.fbf5884d.css",
+    "main.js": "/beit-chabad/static/js/main.a4bd563b.js",
     "static/media/background.png": "/beit-chabad/static/media/background.8a07b017a674496b7fcb.png",
     "index.html": "/beit-chabad/index.html",
-    "main.5e62860e.css.map": "/beit-chabad/static/css/main.5e62860e.css.map",
-    "main.c24028cc.js.map": "/beit-chabad/static/js/main.c24028cc.js.map"
+    "main.fbf5884d.css.map": "/beit-chabad/static/css/main.fbf5884d.css.map",
+    "main.a4bd563b.js.map": "/beit-chabad/static/js/main.a4bd563b.js.map"
   },
   "entrypoints": [
-    "static/css/main.5e62860e.css",
-    "static/js/main.c24028cc.js"
+    "static/css/main.fbf5884d.css",
+    "static/js/main.a4bd563b.js"
   ]
 }
