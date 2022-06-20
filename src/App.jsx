@@ -12,7 +12,7 @@ function App() {
     setDonators(allDonators);
     setTimeout(() => {
       setFilterBy('')
-    },30000);
+    },40000);
   }, [filterBy]);
 
   function onFilterInput(ev) {
