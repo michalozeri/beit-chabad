@@ -1500,6 +1500,11 @@ const gDonators = [
     txt1: "",
   },
   {
+    txt2: "לזכות דוד כהן",
+    id: uuidv4(),
+    txt1: "",
+  },
+  {
     txt2: "לזכות אופיר ליאור",
     id: uuidv4(),
     txt1: "",
