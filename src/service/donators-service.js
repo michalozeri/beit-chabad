@@ -9,7 +9,8 @@ function query(filterBy) {
     donators = gDonators.filter(
       (donator) =>
         donator.txt2.toLowerCase().includes(filterBy) ||
-        donator.txt2.toUpperCase().includes(filterBy)
+        donator.txt2.toUpperCase().includes(filterBy) ||
+        donator.txt1.includes(filterBy)
     );
   }
   return [...donators];
