@@ -10,9 +10,6 @@ function App() {
   useEffect(() => {
     const allDonators = donatoesService.query(filterBy);
     setDonators(allDonators);
-    setTimeout(() => {
-      setFilterBy('')
-    },40000);
   }, [filterBy]);
 
   function onFilterInput(ev) {
