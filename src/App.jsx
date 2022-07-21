@@ -18,7 +18,8 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header"></header>
+      {/* <h1>יעמדו על הברכה</h1> */}
+        <h1>יעמדו על הברכה תורמי המטר לבניין:</h1>
       {donators.length ? (
         <DonatorsList donators={donators} filterBy={filterBy} />
       ) : (
