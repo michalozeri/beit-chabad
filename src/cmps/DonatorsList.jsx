@@ -17,25 +17,3 @@ export function DonatorsList({ donators, filterBy }) {
   );
 }
 
-// export function Donators({donators}) {
-
-//     useEffect(()=>{
-// console.log(donators);
-//     },[])
-//   return (
-//     <section>
-//       {donators.length && (
-//         <div>
-//           {donators.map((donator) => {
-//             return (
-//               <div key={donator.id}>
-//                 <p>{donator.fullname}</p>
-//                 <p>{donator.txt1}</p>
-//               </div>
-//             );
-//           })}
-//         </div>
-//       )}
-//     </section>
-//   );
-// }
